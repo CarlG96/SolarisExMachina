@@ -10,4 +10,42 @@ Solaris Ex Machina is a monster battler RPG set in a solarpunk world in which yo
 - Fight other mechs and find energy cores to continue to survive
 - Don't let your energy reach zero
 - Solarpunk
-- Guns, Melee, Laser, Plasma, Missile
+
+### Weapons
+
+- Guns
+- Missiles
+- Laser
+- Plasma
+- Blunt
+- Sharp
+- Unarmed
+- Electro
+- Flame
+
+### Movement (bottom)
+
+- Treads
+- Legs
+- Spider
+- Hover
+- Roll
+- Wheels
+
+
+### Armour
+
+- Light Plating
+- Medium Plating
+- Heavy Plating
+
+
+### Shields
+
+
+### Core
+
+- Robust
+- Volatile
+- Overclock
+

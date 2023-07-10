@@ -1,4 +1,5 @@
 ﻿using Raylib_cs;
+using System.Security.Principal;
 
 namespace HelloWorld
 {
@@ -6,14 +7,16 @@ namespace HelloWorld
     {
         public static void Main()
         {
-            Raylib.InitWindow(800, 480, "Hello World");
+            Raylib.InitWindow(Raylib.GetScreenWidth(), Raylib.GetScreenHeight(), "Solaris Ex Machina");
 
             while (!Raylib.WindowShouldClose())
             {
                 Raylib.BeginDrawing();
-                Raylib.ClearBackground(Color.WHITE);
+                Raylib.ClearBackground(Color.DARKGREEN);
 
-                Raylib.DrawText("Hello, world!", 12, 12, 20, Color.BLACK);
+                Raylib.DrawText("Solaris Ex Machina", Raylib.GetScreenWidth() / 2 -100, 40, 20, Color.WHITE);
+                Raylib.DrawText("Press Enter to Start", Raylib.GetScreenWidth() / 2 -100, (Raylib.GetScreenHeight() / 2) -10, 20, Color.WHITE);
+                
 
                 Raylib.EndDrawing();
             }
