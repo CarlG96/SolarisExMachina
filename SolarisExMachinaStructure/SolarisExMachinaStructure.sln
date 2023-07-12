@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarisExMachinaStructure", "SolarisExMachinaStructure\SolarisExMachinaStructure.csproj", "{421336C8-8BB0-4E87-8ECF-9B11D647336A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarisExMachinaStructure", "SolarisExMachinaStructure\SolarisExMachinaStructure.csproj", "{CC3430EA-D533-476B-B259-000458A57BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{421336C8-8BB0-4E87-8ECF-9B11D647336A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{421336C8-8BB0-4E87-8ECF-9B11D647336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{421336C8-8BB0-4E87-8ECF-9B11D647336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{421336C8-8BB0-4E87-8ECF-9B11D647336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3430EA-D533-476B-B259-000458A57BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3430EA-D533-476B-B259-000458A57BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3430EA-D533-476B-B259-000458A57BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3430EA-D533-476B-B259-000458A57BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DE4E54D4-B0DC-4E37-9891-059D78EEB402}
+		SolutionGuid = {C93C11FD-8F94-4E01-824E-F82AB10198FF}
 	EndGlobalSection
 EndGlobal
