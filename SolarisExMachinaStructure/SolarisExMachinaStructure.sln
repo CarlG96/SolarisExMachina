@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarisExMachinaStructure", "SolarisExMachinaStructure\SolarisExMachinaStructure.csproj", "{CC3430EA-D533-476B-B259-000458A57BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarisExMachinaClassLibrary", "SolarisExMachinaClassLibrary\SolarisExMachinaClassLibrary.csproj", "{166BEDB5-9947-4FAE-9BEC-A327E3A0E593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarisExMachinaTests", "SolarisExMachinaTests\SolarisExMachinaTests.csproj", "{E9B8A82A-DE1D-42C8-AF15-D2A98A5209A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CC3430EA-D533-476B-B259-000458A57BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC3430EA-D533-476B-B259-000458A57BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC3430EA-D533-476B-B259-000458A57BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166BEDB5-9947-4FAE-9BEC-A327E3A0E593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166BEDB5-9947-4FAE-9BEC-A327E3A0E593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166BEDB5-9947-4FAE-9BEC-A327E3A0E593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166BEDB5-9947-4FAE-9BEC-A327E3A0E593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B8A82A-DE1D-42C8-AF15-D2A98A5209A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B8A82A-DE1D-42C8-AF15-D2A98A5209A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B8A82A-DE1D-42C8-AF15-D2A98A5209A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B8A82A-DE1D-42C8-AF15-D2A98A5209A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

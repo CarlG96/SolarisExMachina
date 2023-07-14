@@ -109,6 +109,8 @@ var calculateMatchResult = (SPS myMove, SPS theirMove) =>
 
 ## OOP C#
 - Use async/ await methods
+- Use delegates
+- Load a save state from a text file
 
 
 
