@@ -106,11 +106,50 @@ var calculateMatchResult = (SPS myMove, SPS theirMove) =>
 
 ### Use destructuring in pattern matching in C#
 
+### Use Readonly structs
+
+### Use {get; init;} syntax
+
+### Use records
+
+```C#
+public record Movie
+ {
+     public string Title { get; init; }
+     public string Director { get; init;  }
+     public IEnumerable<string> Cast { get; init; }
+ }
+
+var bladeRunner = new Movie
+    {
+        Title = "Blade Runner",
+        Director = "Ridley Scott",
+        Cast = new []
+        {
+            "Harrison Ford",
+            "Sean Young"
+        }
+    };
+
+var bladeRunnerDirectors = bladeRunner with
+{
+    Title = $"{bladeRunner.Title} - The Director's Cut"
+};
+
+```
+### Use a func delegate in an IEnumerable
+
+```
 
 ## OOP C#
 - Use async/ await methods
 - Use delegates
 - Load a save state from a text file
+- Use a delegate as a higher-order function and also write up the flashcard
+- Use a multi-cast delegate to invoke multiple functions at once and write up the flashcard
+- Use a func and/or action delegate and write up the flashcard
+- 
+
 
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolarisExMachinaClassLibrary
 {
-    public enum Weapon
+    public enum WeaponType
     {
         Gun,
         Missile,
@@ -19,7 +19,7 @@ namespace SolarisExMachinaClassLibrary
         Flame
     }
 
-    public enum Movement
+    public enum MovementType
     {
         Treads,
         Legs,
@@ -29,17 +29,38 @@ namespace SolarisExMachinaClassLibrary
         Wheels
     }
 
-    public enum Armour
+    public enum ArmourType
     {
         Light,
         Medium,
         Heavy
     }
 
-    public enum Core
+    public enum CoreType
     {
         Robust,
         Volatile,
         Overclock
     }
+
+    public enum Tribe
+    {
+        Fire,
+        Water,
+        Earth,
+        Air,
+        Metal,
+        Crystal,
+        Wood,
+        Mud,
+        Sound,
+        Ice,
+        Smog,
+        Lightning,
+        Steam,
+        Dust,
+        Shadow,
+        Radiance
+    }
+
 }

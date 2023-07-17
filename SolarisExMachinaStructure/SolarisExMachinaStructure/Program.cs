@@ -1,4 +1,6 @@
-﻿namespace SolarisExMachinaStructure
+﻿using SolarisExMachinaClassLibrary;
+
+namespace SolarisExMachinaStructure
 {
     internal class Program
     {
